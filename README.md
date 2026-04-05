@@ -105,23 +105,6 @@ PC_Sales_Data_Analysis/
 │
 ├── screenshots/               # Query outputs/visuals
 ├── README.md
-```
-
----
-
-## 💬 Interview Talking Point
-
-> “I designed a star schema data model in SQL Server by separating transactional and dimensional data, enabling scalable analytics and efficient querying of sales performance across multiple business dimensions.”
-
----
-
-## 📈 Future Improvements
-
-* Integrate with **Power BI** for interactive dashboards
-* Migrate pipeline to **Databricks / Azure** for scalability
-* Implement **ETL automation**
-* Add **incremental data loading**
-* Optimize performance using indexing and partitioning
 
 ---
 
