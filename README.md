@@ -1,6 +1,6 @@
-# 💻 PC Sales Data Engineering & Analytics Project
+#  PC Sales Data Engineering & Analytics Project
 
-## 📌 Project Overview
+##  Project Overview
 
 This project transforms raw PC sales data into a structured, analytics-ready data model using **SQL Server (SSMS)**.
 
@@ -8,18 +8,18 @@ The solution follows a **dimensional modeling approach (Star Schema)** to enable
 
 ---
 
-## 🏗️ Data Architecture
+##  Data Architecture
 
-This project implements a **Star Schema** consisting of:
+To support efficient reporting and minimize query complexity, I designed a Star Schema consisting of:
 
-### ⭐ Fact Table
+###  Fact Table
 
 * **fact_sales**
 
   * Stores transactional sales data
   * Includes revenue, cost, discount, and finance metrics
 
-### 📦 Dimension Tables
+###  Dimension Tables
 
 * **dim_product** → PC specifications (make, model, storage, RAM)
 * **dim_customer** → customer demographics and credit profile
@@ -31,24 +31,34 @@ This structure enables efficient querying and supports real-world reporting scen
 
 ---
 
-## 🎯 Business Objectives
+##  Business Objectives
 
 * Analyse **total revenue and profitability**
 * Identify **top-performing PC models**
 * Evaluate **sales performance by region and salesperson**
 * Track **monthly sales trends**
 * Calculate **profit and profit margins**
+---
+
+ Key Business Metrics Calculated:
+
+
+Revenue & Profitability: Total income and net margins across various product lines.  
+
+Regional Performance: Identification of the highest-value geographic markets.  
+
+Product Trends: Ranking of products based on sales volume and growth potential.
 
 ---
 
-## ⚙️ Technologies Used
+##  Technologies Used
 
 * **SQL Server (SSMS)** — data transformation and querying
 * **T-SQL** — data modeling, joins, aggregations, and analytics
 
 ---
 
-## 🔄 Data Processing Steps
+##  Data Processing Steps
 
 1. **Data Ingestion**
 
@@ -71,7 +81,7 @@ This structure enables efficient querying and supports real-world reporting scen
 
 ---
 
-## 📊 Key Insights
+##  Key Insights
 
 * Identified **top-selling PC models** driving revenue
 * Discovered **high-performing regions** with the most sales
@@ -81,7 +91,7 @@ This structure enables efficient querying and supports real-world reporting scen
 
 ---
 
-## 🧠 Skills Demonstrated
+##  Skills Demonstrated
 
 * Data Modeling (**Star Schema Design**)
 * SQL Development (**Joins, Aggregations, Window Functions**)
@@ -91,7 +101,7 @@ This structure enables efficient querying and supports real-world reporting scen
 
 ---
 
-## 🚀 Project Structure
+##  Project Structure
 
 ```
 PC_Sales_Data_Analysis/
@@ -108,6 +118,6 @@ PC_Sales_Data_Analysis/
 
 ---
 
-## 🙌 Conclusion
+## Conclusion
 
 This project demonstrates how raw transactional data can be transformed into a structured data model that supports **real-world business decision-making**. It highlights both **technical SQL skills** and **data engineering fundamentals**.
