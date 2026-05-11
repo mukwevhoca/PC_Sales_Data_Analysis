@@ -53,8 +53,10 @@ Product Trends: Ranking of products based on sales volume and growth potential.
 
 ##  Technologies Used
 
-* **SQL Server (SSMS)** — data transformation and querying
-* **T-SQL** — data modeling, joins, aggregations, and analytics
+* **SQL Server (SSMS): Used as the primary Data Warehouse environment for data ingestion, transformation, and storage.
+* **T-SQL: Employed for advanced Dimensional Modeling, including the creation of Fact and Dimension tables, complex joins, and window functions for analytical insights.
+* **Draw.io: Used to design the Star Schema architecture, providing a visual blueprint of the data relationships and referential integrity.
+* **GitHub & Bash: Utilized for Version Control and managing the development lifecycle through the command line. 
 
 ---
 
